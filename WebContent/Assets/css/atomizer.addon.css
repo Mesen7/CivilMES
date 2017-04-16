@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+  form{ padding:0!important }
+  table{ width:100%!important }
+  table th{
+    text-align: center;
+    height: 30px;
+  }
+  table td{
+    padding: 5px !important;
+    height: 30px;
+  }
+  table .table-label{ 
+    text-align:right;
+  }
+  table td input,table td select{
+    //width:100%!important;
+    //height:100%!important;
+    //border:none;
+    padding-left:10px;
+    padding-right:10px;
+  }
+ 

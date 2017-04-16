@@ -1,0 +1,10 @@
+
+ 	.col-height{ height:50px;border:}
+ 	.div-center{ position: relative; top: 50%; text-align: center; transform: translate(0%, -50%);margin: 0px; color:#444;}
+ 	.head-languange{position:relative;text-align: right;top:50%; transform:translate(0,-50%)}
+ 	.head-languange a,.head-languange a:hover{color:#555; font-size:90%;text-decoration: none;}
+ 	.navbar-default  {min-height: 40px;background: #155be7 url(/images/bg.png) repeat-x 0 -110px;}
+	.navbar-default .navbar-nav>li>a {padding-top: 10px;padding-bottom: 10px; color:#eee!important; text-shadow:none!important;}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+	{background-image: linear-gradient(to bottom, #dbdbdb 0, #eee 100%)!important; color:black!important;}
+	.navbar-default .navbar-nav .open .dropdown-menu>li a{color:#444!important;}

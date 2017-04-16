@@ -1,0 +1,103 @@
+#layout
+{
+	display: flex;
+	--border: 2px solid black;
+	font-family:Arial, Helvetica, sans-serif;
+	width:100%;
+	min-width: 960px;
+}
+#content
+{
+	--border:1px solid #888;
+	--border-radius: 10px 10px;
+	--box-shadow: 0 5px 5px rgba(0,0,0, .5);
+	--background-color: white;
+	margin: 20px auto;
+	font-size: 90%;
+}
+#content h3
+{
+	text-align: center;
+
+	color: black;
+	margin: 0 0 0px 0;
+	padding: 10px 0 10px 0;
+	--height: 50px;
+	--border: 1px solid white;
+}
+#content form
+{
+	display: flex;
+	flex-wrap:wrap;
+	padding: 0 10px 0 0;
+	text-align: left;
+	--background:  rgba(73,127,236,0.8);
+	--border: 1px solid black;
+	--border-radius: 20px;
+}
+#content form td
+{
+	padding: 0 10px 0 0;
+}
+/*
+#content form select
+{
+	margin-left:5px;
+	padding: 2px 20px 2px 2px;
+	border-radius: 5px;
+}
+*/
+#content form input[type="button"]
+{
+	border: 1px solid rgba(73,127,236,0.6);
+	border-radius: 5px;
+	padding: 2px 15px;
+	background-color:rgba(73,127,236,0.6);
+	color:white;
+	margin-left:10px;
+}
+#content form input[type="button"]:hover
+{
+	border: 1px solid rgba(73,127,236,1);
+	background: #155be7 url(../images/bg.png) repeat-x 0 -110px;
+	color: white;
+}
+
+#result
+{
+	padding: 10px 2px;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 90%;
+}
+#content a
+{
+	text-decoration: none;
+	color: #155be7;
+}
+ #result th,#result td, #result
+{
+	border: 1px solid black;
+	padding: 5px 10px;
+	vertical-align:center;
+}
+ #result th
+{
+	background: rgba(73,127,236,0.6);
+}
+ #result tr:nth-child(even)
+{
+	background: rgba(73,127,236,0.2);
+}
+
+#returnMsgArea
+{
+	width: 100%;
+	padding: 0 ;
+	height: 30px;
+	margin: 3px 0 3px 0;
+	resize: none;
+	overflow:hidden;
+	border: none;
+	color: red;
+}
